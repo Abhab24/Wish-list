@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="eb09bebdc3110210c9367addd401311c" label="List" max_length="40" name="x_1366220_wish_l_1_list" type="collection">
-        <element label="Item" mandatory="true" max_length="125" name="item" type="string"/>
+        <element label="Items" mandatory="true" max_length="125" name="item" type="string"/>
+        <element display="true" label="Quantity" max_length="1024" name="quantity" type="url"/>
         <element label="Requester" mandatory="true" max_length="32" name="requester" reference="sys_user" type="reference"/>
         <index name="index">
             <element name="requester"/>
